@@ -13,7 +13,7 @@ class EducationSeeder extends Seeder
      */
     public function run()
     {
-        for     ($i = 0; $i < 1000; $i++ ) {
+        for     ($i = 0; $i < 10; $i++ ) {
             $faker = Factory::create();
             Education::create([
                 'user_id' => '1',
